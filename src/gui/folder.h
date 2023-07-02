@@ -233,6 +233,9 @@ public:
     /// Removes the folder from the account's settings.
     void removeFromSettings() const;
 
+    /* Check if the path is ignored. */
+    bool pathIsIgnored(const QString &path);
+
     /**
       * Returns whether a file inside this folder should be excluded.
       */
